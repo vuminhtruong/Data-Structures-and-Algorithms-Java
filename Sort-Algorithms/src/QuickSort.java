@@ -29,7 +29,8 @@ public class QuickSort {
         int pivot = input[start];
         int i = start;
         int j = end;
-
+        
+        //{ 20, 35, -15, 7, 55, 1, -22 }
         while (i < j) {
 
             // NOTE: empty loop body
